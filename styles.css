@@ -135,14 +135,12 @@ td {
 .komplikasi-item {
     background-color: #fff;
     border-radius: 15px;
-    /* Membuat sudut lebih bulat */
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    /* Menyusun gambar dan teks dalam kolom */
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -152,9 +150,7 @@ td {
 /* Animasi hover */
 .komplikasi-item:hover {
     transform: translateY(-10px) scale(1.05);
-    /* Menggeser ke atas dan sedikit memperbesar */
     box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
-    /* Bayangan lebih tebal */
 }
 
 .komplikasi-gambar {
